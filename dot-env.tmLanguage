@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>.env</string>
+		<string>.env.example</string>
 		<string>.env.staging</string>
 		<string>.env.production</string>
 		<string>.env.development</string>
@@ -17,7 +18,7 @@
 			<key>comment</key>
 			<string>Uppercase text e.g. hello</string>
 			<key>match</key>
-			<string>([A-Z,_]*)(?==)</string>
+			<string>([A-Z0-9_]*)(?==)</string>
 			<key>name</key>
 			<string>constant</string>
 		</dict>
